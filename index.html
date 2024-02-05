@@ -96,7 +96,18 @@
             padding: .5em;
             box-shadow: 5px 5px 5px midnightblue;
         }
-
+        @media only screen and (max-width: 480px) {
+            body {
+                justify-content: unset;
+            }
+            #gameover-box {
+                top: unset;
+                left: unset;
+            }
+            #gameover {
+                height: unset;
+            }
+        }
     </style>
 </head>
 <body>
